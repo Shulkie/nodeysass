@@ -1,0 +1,18 @@
+$medida-fuente: 18px;
+$primary-color: pink;
+
+@import 'mixins';
+@import 'movie_info';
+
+
+p {
+    font-size: $medida-fuente;
+    color: $primary-color;
+}
+
+// .movie-info .written-by strong{
+//     font-weight: 900;
+//     color: lightgreen;
+
+// }
+

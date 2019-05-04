@@ -1,0 +1,24 @@
+para hacer archivos parciales de sass
+
+empiezan siempre con _ 
+
+el nombre del archivo ya me da la data que es un archivo parcial de sass
+
+para agregarlo lo importo, desde sass lo incluyo , usamos @import 'nombredelparcial'
+(no hace falta el _ del principio,)sass ya asume que es el archivo sass
+
+variables van solo al principio 
+
+la idea es tener un solo sass y muchos imports no muchos sass 
+
+mixins
+
+@mixin          pueden tener parámetros
+
+lo que me llega por paraámetro es la cantidad de ese mixin 
+
+tambien debo importarlos
+
+luego para usarlo
+
+   @include nombre del mixin (parámetro);

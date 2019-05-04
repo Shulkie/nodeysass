@@ -1,0 +1,19 @@
+.movie-info {
+  #rated {
+    @include opacity(0.5);
+  }
+  h2.title {
+    font-weight: 900;
+    color: burlywood;
+  }
+
+  .written-by {
+    strong {
+      font-weight: 900;
+      color: $primary-color;
+    }
+    span {
+      @include truncate (100px);
+    }
+  }
+}
