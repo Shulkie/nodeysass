@@ -10,7 +10,7 @@ const movies = [
   // obtener el input de busqueda
   // document.getElementById
   // document.querySelector
-  const input = document.querySelector('#search');
+  const input = document.querySelector('#search'); 
   
   // obtengo todos los elementos que necesito modificar
   const title = document.querySelector('.movie-info .title');

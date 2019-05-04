@@ -22,3 +22,79 @@ tambien debo importarlos
 luego para usarlo
 
    @include nombre del mixin (parámetro);
+
+
+Javascript "avengers: endgame".includes ('') funciona parecido al startwith() pero busca en cualquier parte del texto
+
+hay un metodo que no me devuelve una lista si no que me devuelve un elemento
+
+find a diferencia de filter y el primero que cumpla la condición me lo devuelve 
+
+.find devuelve la película que estoy buscando 
+tengo que avisarle a js que si movie es undefined (!movie) me de algún resultado para que no quede
+vacio 
+
+
+Api para guardar datos 
+
+me va  a permitir consultárselo
+
+const movies va a acceder de la api 
+
+http 
+HTTP GET ( HACER UN GET A UN SERVIDOR )
+HTTP POST
+HTTP DELETE
+HTTP PUT
+HTTP PATCH
+
+
+Puedo desde una funcion de JS pegarle a una api 
+uso una función
+
+
+fetch como parámetro pongo la api, fetch es nativa de JS 
+
+lo puedo usar y es estandar, fetch se guarda en una variable 
+
+
+
+
+
+
+const prom = fetch('https://jsonplaceholder.typicode.com/todos')
+
+si lo consologueo me devuelve algo que se llama promise que me deja manejar tareas asincrónicas
+JS es single thread  = unithread 
+se ejecuta de forma instantánea
+const dobles = [1,2,3]. map(n=> n*2)
+
+las promesas no son más que un objeto plano que tiene una accion 
+
+(espera que la api nos devuleva algo )
+
+el mettodo que recibe como parámetro es una función 
+
+prom.then(res =>)
+
+le voy a pasar una función que se va a ejecutar cuando la promesa se cumpla DENTRO DEL PARAMENTRO 
+
+prom
+.then(res=> res.json()) // esto me devuelve una nueva promesa
+.then (data => {
+    console.log (data);
+})
+\
+
+
+puedo hacerlo también asi 
+
+fetch('https://jsonplaceholder.typicode.com/todos')
+.then(res=> res.json()) // esto me devuelve una nueva promesa
+.then (data => {
+    console.log (data);
+    // implementamos el código para usar los datos 
+})
+
+
+
