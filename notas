@@ -96,5 +96,17 @@ fetch('https://jsonplaceholder.typicode.com/todos')
     // implementamos el código para usar los datos 
 })
 
+cuando le pedimos cosas a la api le paso parámetros para decirle que queremos que nos devuleva
+los parámetros se escriben con signo de pregunta 
+?
+query params
+
+?apikey=valor del praámerto= 
+https://www.omdbapi.com/?apikey=2fb7569a&t=
+los parámatros se separan con & 
+la misma api nos dice cómo el parámetro se debe llamar
+
+para buscar directo de la api hago un fetch directamente ahi 
+para no copiar y traer todos los objetos
 
 
